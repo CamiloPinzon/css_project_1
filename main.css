@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -69,8 +71,13 @@ body {
     border: none;
 }
 
-.product-overview {
+#product-overview {
     background-image: url('./freedom.jpg');
     width: 100%;
-    height: auto;
+    height: 500px;
+}
+
+#product-overview > h1 {
+    color: #FFF;
+    text-transform: uppercase;
 }
